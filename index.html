@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div id="nav"></div>
+    <h1>Welcome!</h1>
+    <p>
+      This website compares the education systems of California and Hawaii,
+      evaluating strengths and weaknesses in each system. This website explores
+      policy, data, previous literature, and more to carefully analyze the
+      differences and similarities of these two states, eventually leading to
+      evidence-based policy recommendations.
+    </p>
+    <h2>State Selection</h2>
+    <p>
+      Growing up in Hawaii, I’ve always envied the educational opportunities of
+      public schools in California. From my private Baptist high school, I
+      watched as the public high schools in California competed in national
+      robotics competitions, participated in debate tournaments, and volunteered
+      with their school’s Key Club. Meanwhile, my school lacked the resources to
+      support these activities, and the Hawaii public schools had even fewer
+      opportunities to offer.
+    </p>
+    <p>
+      This disparity in resources was one of the driving forces behind my
+      decision to focus on these two states for my analysis. To me, the best
+      private schools on the island were comparable to the average public school
+      in California—public schools had the ability to provide students with more
+      diverse extracurricular programs, more advanced technology, and a wider
+      selection of academic courses. On the other hand, most public schools in
+      Hawaii faced significant challenges related to funding and the
+      availability of academic and extracurricular programs, somethat California
+      just didn’t seem to face.
+    </p>
+    <p>
+      However, I remember from previous data tasks that both states performed
+      roughly the same on standardized tests. I remember being shocked, as I
+      expected California’s scores to be a lot higher than Hawaii’s due to
+      obvious educational differences. This told me that there was more to be
+      discovered about these two states, and that surface-level comparisons
+      weren’t going to tell the whole story.
+    </p>
+    <p>
+      This piqued my interest: why does California seem to have greater
+      educational opportunity yet similar test scores? What is Hawaii doing
+      differently to make up for its lack of resources? In evaluating the
+      strengths and weaknesses of these two states, I hope to draw insights
+      about what each school is doing right and how these two educational
+      structures can borrow policies and practices from one another to do
+      better.
+    </p>
+    <script>
+      fetch("/nav.html")
+        .then((res) => res.text())
+        .then((html) => (document.getElementById("nav").innerHTML = html));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Literature</title>
+    <link rel="stylesheet" href="literature.css" />
+  </head>
+  <body>
+    <div id="nav"></div>
+    <h1>Literature</h1>
+    <p>
+      This page provides a comprehensive overview of some of the literature on
+      the education systems of California and Hawaii. Specifically, it centeres
+      around student to teacher ratio, class size, and school quality.
+    </p>
+    <h3>
+      <a
+        href="https://www.hunschool.org/resources/student-teacher-ratios#:~:text=The%20student%2Dteacher%20ratio%20reflects,process%20and%20learning%20will%20be."
+        >Everything You Need to Know About Student-Teacher Ratios</a
+      >
+    </h3>
+    <p>
+      This article exploes the importance of Student to Teacher ratios. It
+      mentions that better (lower) student to teacher ratios, due to more
+      engagement and less work for teachers, leads to better test scores, fewer
+      dropouts, and higher rates of graduation.
+    </p>
+    <h3>
+      <a href="https://www.cta.org/our-advocacy/class-size-matters"
+        >Class Size Matters (California Teachers Association)</a
+      >
+    </h3>
+    <p>
+      This article discusses teacher perspective on the student-teacher ratio
+      debate. Representatives of the California Teachers Association talk about
+      what they think is the ideal ratio and how it affects the quality of the
+      classroom. They argue that full state funding must be allocated to this
+      topic, as it is one of the most important issues in the Calfornia
+      Education System.
+    </p>
+    <h3>
+      <a
+        href="https://calbudgetcenter.org/resources/what-has-proposition-30-meant-for-california/"
+        >What Has Proposition 30 Meant for California?</a
+      >
+    </h3>
+    <p>
+      This article discusses Proposition 30 and 55 and how it affects the
+      quality of education in California. Approved in 2012, Proposition 30 was a
+      policy that allowed for temporary tax rate increases to fight California's
+      daunting fiscal challenges, allowing this money to be put to schools.
+      Specifically, it aimed to tax the wealthy to fund education during this
+      time of need.
+    </p>
+    <p>
+      A key metric that this proposition affected was student-teacher ratios. As
+      mentioned by the article, the average number of students per teacher has
+      dropped since the approval of Proposition 30 (coupled with Proposition 98)
+      due to the state's newfound ability to reinvest in the school system by
+      significantly increasing spending on education.
+    </p>
+    <h3>
+      <a
+        href="https://www.hawaiinewsnow.com/story/31953478/school-officials-say-campbell-hs-overcrowding-has-reached-emergency-status/"
+        >Campbell High Overcrowding Hits 'Emergency' Status, School Officials
+        Say</a
+      >
+    </h3>
+    <p>
+      This article discusses overcrowding and high teacher-student ratios in
+      certain Hawaii public schools. Administrators argued that without proper
+      funding, the student to teacher ratio could exceed the already high
+      27-30:1 ratio for Campbell High School.
+    </p>
+    <h3>
+      <a
+        href="https://boe.hawaii.gov/wp-content/uploads/2024/07/106-2-05-03-2016.pdf"
+        >Crowded Classrooms, Teacher Shortages – Demographic Changes Could Help
+        Our Nation’s Troubled Schools, but Only if We Let Them</a
+      >
+    </h3>
+    <p>
+      This paper argues that continuous population growth, fueled by high levels
+      of immigration and domestic migration, exacerbates issues of high
+      student-teacher ratios and school popuations, lessening schools'
+      capacities to provide quality education. The author suggests that
+      declining birth rates could naturally alleviate some pressure on the
+      education system, but fears that policies ignoring population increases
+      may counteract this potential relief. He emphasizes the need for a
+      national conversation about the implications of demographic trends on
+      education, advocating for policies that consider the capacity of schools
+      to effectively serve their student populations.
+    </p>
+    <script>
+      fetch("/nav.html")
+        .then((res) => res.text())
+        .then((html) => (document.getElementById("nav").innerHTML = html));
+    </script>
+  </body>
+</html>

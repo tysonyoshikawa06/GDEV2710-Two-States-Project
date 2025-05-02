@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data</title>
+    <link rel="stylesheet" href="data.css" />
+  </head>
+  <body>
+    <div id="nav"></div>
+    <h1>Data</h1>
+    <p>
+      This page provides a comprehensive overview of demographic trends,
+      achievement patterns, school finance statistics, and student to teacher
+      ratios for California and Hawaii's education systems. There is also some
+      analysis of the data for each section, putting the data into context.
+    </p>
+    <h2>Statistics and Visualizations</h2>
+    <h3>Demographic Trends</h3>
+    <p>
+      Hawaii and California’s school systems have a vastly different ethnic
+      makeup. Specifically, California has a large Latino/Hispanic population,
+      whereas Hawaii’s school system is more diverse with a larger Native
+      Hawaiian/Pacific Islander and Asian population. The demographic data of
+      these two school systems is listed in the table below:
+    </p>
+
+    <h4>Ethnic Composition of Public School Students (2023–2024)</h4>
+    <table>
+      <tr>
+        <th>Ethnic Group</th>
+        <th>
+          <a
+            href="https://dq.cde.ca.gov/dataquest/dqcensus/EnrEthGrd.aspx?cds=00&agglevel=state&year=2023-24"
+            >California (%)</a
+          >
+        </th>
+        <th><a href="https://essa.hidoedata.org/state/999">Hawaii (%)</a></th>
+      </tr>
+      <tr>
+        <td>Latino/Hispanic</td>
+        <td>56.3%</td>
+        <td>18.3%</td>
+      </tr>
+      <tr>
+        <td>White</td>
+        <td>20.2%</td>
+        <td>11.2%</td>
+      </tr>
+      <tr>
+        <td>Asian</td>
+        <td>9.3%</td>
+        <td>24.6%</td>
+      </tr>
+      <tr>
+        <td>Native Hawaiian/Pacific Islander</td>
+        <td>0.5%</td>
+        <td>26.0%</td>
+      </tr>
+      <tr>
+        <td>Black</td>
+        <td>5.3%</td>
+        <td>1.3%</td>
+      </tr>
+      <tr>
+        <td>Other/Multiracial/Not Reported</td>
+        <td>8.4%</td>
+        <td>18.6%</td>
+      </tr>
+    </table>
+
+    <p>
+      Just as California has its smallest minority groups at 0.5% and 5.3%
+      (Native Hawaiian/Pacific Islander and Black respectively), Hawaii has its
+      smallest minority group (Black) sitting at just 1.3%. Although both of
+      these school systems have relatively diverse ethnic makeups, the
+      minorities in each community are vastly outnumbered, as shown by the
+      silvers in the pie charts below:
+    </p>
+    <div class="pie-chart-container">
+      <h4>California School System Ethnic Makeup (2023-2024)</h4>
+      <img
+        src="./public/california_demographics.jpg"
+        alt="California Demographics"
+        style="width: 50%; height: 50%"
+      />
+      <h4>Hawaii School System Ethnic Makeup (2023-2024)</h4>
+      <img
+        src="./public/hawaii_demographics.jpg"
+        alt="Hawaii Demographics"
+        style="width: 50%; height: 50%"
+      />
+    </div>
+
+    <h3>Achievement Patterns</h3>
+    <p>
+      Hawaii and California have very similar statistics when it comes to
+      standardized test performace. While recent data for grade 12 students
+      isn't available, we can see just how similar the National Assessment of
+      Educational Progress (NAEP) scores are between the two states:
+    </p>
+
+    <h4>2022 NAEP Average Scores (Grade 8)</h4>
+    <table>
+      <tr>
+        <th>Subject</th>
+        <th>Hawaii</th>
+        <th>California</th>
+        <th>National Average</th>
+        <th>State Difference (|Hawaii - California|)</th>
+      </tr>
+      <tr>
+        <td><strong>Math</strong></td>
+        <td>
+          <a
+            href="https://nces.ed.gov/nationsreportcard/subject/publications/stt2022/pdf/2023011HI8.pdf"
+            >270</a
+          >
+        </td>
+        <td>
+          <a
+            href="https://nces.ed.gov/nationsreportcard/subject/publications/stt2022/pdf/2023011CA8.pdf"
+            >270</a
+          >
+        </td>
+        <td>
+          <a
+            href="https://nces.ed.gov/nationsreportcard/subject/publications/stt2022/pdf/2023011.pdf"
+            >273</a
+          >
+        </td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><strong>Reading</strong></td>
+        <td>
+          <a
+            href="https://nces.ed.gov/nationsreportcard/subject/publications/stt2022/pdf/2023010HI8.pdf"
+            >259</a
+          >
+        </td>
+        <td>
+          <a
+            href="https://nces.ed.gov/nationsreportcard/subject/publications/stt2022/pdf/2023010CA8.pdf"
+            >259</a
+          >
+        </td>
+        <td>
+          <a
+            href="https://nces.ed.gov/nationsreportcard/subject/publications/stt2022/pdf/2023010HI8.pdf"
+            >259</a
+          >
+        </td>
+        <td>0</td>
+      </tr>
+    </table>
+    <p>
+      As we can see from the table above, the average NAEP scores for both
+      Hawaii and California aren't too dissimilar (in this case, very similar).
+      Additionally, both states are near the national average for both subjects.
+      The following graphs are a visual representation of the data pulled from
+      the NCES website, the official source for the NAEP scores.
+    </p>
+    <h4>
+      <a
+        href="https://nces.ed.gov/nationsreportcard/subject/publications/stt2022/pdf/2023011HI8.pdf"
+        >2022 NAEP Hawaii Math Scores (Grade 8)</a
+      >
+    </h4>
+    <img
+      src="./public/hawaii_math.jpg"
+      alt="Hawaii Math Scores ()"
+      style="height: 50%; width: 50%"
+    />
+    <h4>
+      <a
+        href="https://nces.ed.gov/nationsreportcard/subject/publications/stt2022/pdf/2023011CA8.pdf"
+        >2022 NAEP California Math Scores (Grade 8)</a
+      >
+    </h4>
+    <img
+      src="./public/california_math.jpg"
+      alt="California Math Scores"
+      style="height: 50%; width: 50%"
+    />
+    <h4>
+      <a
+        href="https://nces.ed.gov/nationsreportcard/subject/publications/stt2022/pdf/2023010HI8.pdf"
+        >2022 NAEP Hawaii Reading Scores (Grade 8)</a
+      >
+    </h4>
+    <img
+      src="./public/hawaii_reading.jpg"
+      alt="Hawaii Reading Scores"
+      style="height: 50%; width: 50%"
+    />
+    <h4>
+      <a
+        href="https://nces.ed.gov/nationsreportcard/subject/publications/stt2022/pdf/2023010CA8.pdf"
+        >2022 NAEP California Reading Scores (Grade 8)</a
+      >
+    </h4>
+    <img
+      src="./public/california_reading.jpg"
+      alt="California Reading Scores"
+      style="height: 50%; width: 50%"
+    />
+    <h3>School Finance Statistics</h3>
+    <p>
+      The way schools are funded in Hawaii and California is very different.
+      Hawaii's school system is funded by the state government, while
+      California's school system is funded by the local property taxes and state
+      funding. Due to Hawaii's centralized school system, the state government
+      recieves money directly from state legislature and the Department of
+      Education is able to allocate these funds as it sees fit (<a
+        href="https://www.methodschools.org/blog-2023/an-overview-of-per-student-funding-in-the-united-states-and-california-for-traditional-and-charter-schools#:~:text=Hawaii%2C%20consisting%20of%20a%20single,formula%20to%20fund%20individual%20schools"
+        >Method</a
+      >).
+    </p>
+    <p>
+      The way these two states source their money is not the only difference.
+      Hawaii also tends to spend more money per pupil than California. In 2025,
+      Hawaii will spend $19,719 per pupil, whereas California will only spend
+      $18,020 per pupil (a $1,699 difference) (<a
+        href="https://worldpopulationreview.com/state-rankings/per-pupil-spending-by-state"
+        >World Populatin Review</a
+      >). Both states spend a little over the national average per pupil (<a
+        href="https://educationdata.org/public-education-spending-statistics#:~:text=K%2D12%20public%20schools%20spend,year%20public%20colleges%20spend%20annually."
+        >$17,277</a
+      >). However, these numbers don't tell the full story.
+    </p>
+    <p>
+      Hawaii's cost of living is higher than California's, so this extra money
+      per pupil may be needed to maintain the same level of resources in Hawaii
+      (<a
+        href="https://worldpopulationreview.com/state-rankings/cost-of-living-index-by-state"
+        >World Populatin Review</a
+      >). On the other hand, California's significantly higher student
+      population may actually necessitate extra funding per pupil to support
+      student needs.
+    </p>
+    <h4>Cost of Living vs. Per Pupil Spending (2025)</h4>
+    <img
+      src="./public/col_pps.jpg"
+      alt="Cost of Living vs. Per Pupil Spending (2025)"
+      style="height: 50%; width: 50%"
+    />
+    <h3>Class Size and Population</h3>
+    <p>
+      The average high school class size in Hawaii and California is very
+      different. Hawaii has a public high school student population of about
+      <a
+        href="https://files.hawaii.gov/dbedt/economic/databook/2022-individual/03/031322.pdf#:~:text=7%2011%2C687%207%2C265%201%2C486%201%2C326,11%2C267%202%2C678%202%2C078%20868%201%2C145"
+        >46,000</a
+      >
+      students. This number is absolutely tiny compared to California's public
+      high school student population of
+      <a href="https://www.cde.ca.gov/ta/ac/cm/censenrolldatafiles.asp"
+        >1,800,000</a
+      >
+      students.
+    </p>
+    <p>
+      Now, one would assume that with more students come more teachers. While
+      this is true, the teachers in California aren't enough to keep up with
+      demand. In 2022, the average student to teacher ratio in California was
+      roughly
+      <a
+        href="https://nces.ed.gov/programs/digest-dashboard/state/california#:~:text="
+        >22:1</a
+      >, wheras the student to teahcer ration in Hawaii was just
+      <a
+        href="https://nces.ed.gov/programs/digest-dashboard/state/hawaii#:~:text="
+        >14:1</a
+      >.
+    </p>
+    <p>
+      Due to the decentralized nature of California's school system, a lot of
+      the time, teachers aren't where they are needed most, leaving some
+      classrooms with an extremely high student to teacher ratio. In contrast,
+      Hawaii's centralized school system mostly allows the Department of
+      Education to allocate teachers as needed, ensuring that each classroom has
+      the resources it needs.
+    </p>
+    <p>
+      Although this fact is at play, even if teachers in California were to be
+      properly distributed, the student to teacher ratio would still be too
+      high. The fact of the matter is that the demand for teachers in California
+      is much higher than the supply, leaving schools with a large student to
+      teacher ratios and less engaging classrooms.
+    </p>
+    <h4>Average Public High School Population (2022)</h4>
+    <img
+      src="public/student_population.jpg"
+      alt="Average Public High School Population"
+      style="height: 50%; width: 50%"
+    />
+    <h4>Average Teachers Per Student (2022)</h4>
+    <img
+      src="public/teacher_student_ratio.jpg"
+      alt="Average Teachers Per Student"
+      style="height: 50%; width: 50%"
+    />
+    <h2>Evaluation and Analysis</h2>
+    <p>
+      When viewed together, the demographic trends, achievement patterns,
+      funding structures, and educator data reveal a more complex story about
+      how scale, structure, and resources interact in the education systems of
+      California and Hawaii.
+    </p>
+    <p>
+      Despite having a much smaller student population, Hawaii allocates its
+      resources through a more centralized, state-led system that allows for
+      more equitable distribution of teachers and a lower student-to-teacher
+      ratio. This better student to teacher ratio possibly allows for more
+      engaging classes, explaining students’ high performance on standardized
+      tests despite comparatively low per pupil spending to cost of living
+      index.
+    </p>
+    <p>
+      California, on the other hand, educates over 1.8 million high school
+      students—nearly 40 times more than Hawaii—under a highly decentralized
+      model. Its student-teacher ratio of 22:1 gives room for less engaging
+      classrooms. However, its higher per pupil spending to cost of living index
+      potentially allows for more resources and extracurricular programs that
+      make up for these less intimate classroom settings. Through clubs and
+      other extracurricular activities, students have the potential to make up
+      for their lack of a more personalized education.
+    </p>
+    <p>
+      These reasons could explain the similar achievement between Hawaii and
+      California students. Both states lack something, yet it is made up for
+      with other factors that balance their respective systems and allow
+      students to perform at a high level.
+    </p>
+    <script>
+      fetch("/nav.html")
+        .then((res) => res.text())
+        .then((html) => (document.getElementById("nav").innerHTML = html));
+    </script>
+  </body>
+</html>
